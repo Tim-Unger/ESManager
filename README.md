@@ -16,7 +16,7 @@ Simply head over to the Releases Page on this GitHub-Page or click [here](https:
 ## Installation
 
 Once downloaded, execute the Installer which will guide you through the Installation-Process.
-Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Creating Profiles](#CreatingProfiles))
+Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Creating Profiles](#Creating Profiles))
 
  ## The Program
  
