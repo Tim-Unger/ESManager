@@ -33,5 +33,5 @@ Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Cr
  ## Report Bugs, Make Suggestions or Participate
  
  If you want to report a Bug head over to the [Issues Page](https://github.com/Tim-Unger/ESUpdater/issues) and create a request with the "Bug"-Tag
- If you want to make a Suggestion, do the same but select the "Suggestion"-Tag
+ If you want to make a Suggestion, do the same but select the "Suggestion"-Tag.
  If you are a Representative of your vACC and want to upload/add an official Profile-File for your vACC either send me a Message through Discord (Timitri#3457), send me a [Mail](mailto:contact@tim-u.me) or create a Pull-Request with the JSON and will see if I can include it.
