@@ -16,7 +16,7 @@ Simply head over to the Releases Page on this GitHub-Page or click [here](https:
 ## Installation
 
 Once downloaded, execute the Installer which will guide you through the Installation-Process.
-Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Creating Profiles](#Creating Profiles))
+Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Creating Profiles](#Profiles))
 
  ## The Program
  
@@ -24,8 +24,14 @@ Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Cr
  
  ## Walk-Through of the Process
  
- ## Creating Profiles
+ ## Profiles
  You can create custom JSON-Files that can be loaded as a Profile to quickly import and display all Settings you want to use.
  To Create a Profile you can either manually write a JSON-File (see ProfileExample.json either in the Program directory or click [here](http://tim-u.me/ProfileExample.json))
  or you can Open ProfileCreator.exe which will guide you through the Process of Creating a Profile.
  You can also create a New JSON inside ESUpdater by activating "Create Profile with Settings" in "Other Settings" and selecting a Path
+ 
+ ## Report Bugs, Make Suggestions or Participate
+ 
+ If you want to report a Bug head over to the [Issues Page](https://github.com/Tim-Unger/ESUpdater/issues) and create a request with the "Bug"-Tag
+ If you want to make a Suggestion, do the same but select the "Suggestion"-Tag
+ If you are a Representative of your vACC and want to upload/add an official Profile-File for your vACC either send me a Message through Discord (Timitri#3457), send me a [Mail](mailto:contact@tim-u.me) or create a Pull-Request with the JSON and will see if I can include it.
