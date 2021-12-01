@@ -30,7 +30,7 @@ Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Cr
  or you can Open ProfileCreator.exe which will guide you through the Process of Creating a Profile.
  You can also create a New JSON inside ESUpdater by activating "Create Profile with Settings" in "Other Settings" and selecting a Path
  
- ## Report Bugs, Make Suggestions or Participate
+ ## Report Bugs, Make Suggestions or Participate ![issues](https://img.shields.io/github/issues/Tim-Unger/ESUpdater)
  
  If you want to report a Bug head over to the [Issues Page](https://github.com/Tim-Unger/ESUpdater/issues) and create a request with the "Bug"-Tag
  If you want to make a Suggestion, do the same but select the "Suggestion"-Tag.
