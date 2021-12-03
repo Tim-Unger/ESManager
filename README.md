@@ -11,7 +11,7 @@ and needing to add Custom Plugins constantly I came up with the idea to create a
 
 ## Download
 
-Simply head over to the [Releases Page on this GitHub-Page](https://github.com/Tim-Unger/ESUpdater/releases/latest) or click [here](https://tim-u.me/ESUpdaterSetup.msi
+Simply head over to the [Releases Page on this GitHub-Page](https://github.com/Tim-Unger/ESUpdater/releases/latest) or click [here](https://tim-u.me/ESUpdaterSetup.msi)
 
 ## Installation
 
