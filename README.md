@@ -1,6 +1,6 @@
 ![title banner](http://tim-u.me/title.png)
 
-# ESUpdater ![downloads](https://img.shields.io/github/downloads/Tim-Unger/esupdater/total)
+# ESManager ![downloads](https://img.shields.io/github/downloads/Tim-Unger/esmanager/total)
 
 A Program to easily and quickly update your EuroScope Sectorfiles, with many Settings and Options to customize your Setup
 
