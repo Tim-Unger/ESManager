@@ -1,54 +1,79 @@
-![title banner](http://tim-u.me/title.png)
 
 # ESManager ![downloads](https://img.shields.io/github/downloads/Tim-Unger/esmanager/total)
 
-A Program to easily and quickly update your EuroScope Sectorfiles, with many Settings and Options to customize your Setup
 
-## The Idea
+A Program that aims to be the all-in-one-solution for all your problems with EuroScope.
 
-Because it is very tedious to manually update your EuroScope Sectorfiles with every Airac-Cycle, also having to manually adjust personal Settings 
-and needing to add Custom Plugins constantly I came up with the idea to create a Program that automatically sets up your EuroScope SectorFiles for you.
+## What the Program offers
 
-## What the Program does
+**ESEquip**: Helps while you are controlling and checks that pilots file the correct Equipment-Code  
+**ESProfiles**: Helps you with creating different Profiles and acts as the bundler for all other Programs  
+**ESLauncher**: Helps you with quickly launching all the PRFs you need to control, aswell as all Programs you need.  
+**ESRwy**: Helps you with changing your .rwy-file to quickly add or remove airports depending on the position you are controlling  
+**ESUpdater**: Helps you with quickly updating your Sectorfiles, while keeping your personal settings and plugins.  
 
-The program is a simple tool to quickly update your EuroScope Sector-files without having to manually edit or copy lots of files.
-Some features are:
-- The ability to create a "plugin-collection" to automatically add your favorite plugins to every Sector-File
-- 4 different modes of copying for even more flexibility and to fit every users setup
-- The ability to create custom profiles for Settings to set up your Sector-Files even quicker and easier
-- An "Easy-Mode" which takes you through the process step-by-step
-- Lots of customisability to fit (almost) every user
-- TopSky-Settings included
-- Notifications if a new Airac is released
-- Automatically detects the Airac of a Sector-File (If the Provider is AeroNav)
-- 
-- The possibility for vACCs to upload their custom Profiles to give users a quick way of installing the ideal EuroScope-Setup
-- A quick and easy setup
-- A light and resource-friendly program
-- A Log that saves every File and Setting copied and used to give the user maximum transparency
-- 
-- once implemented, the ability to fully automatically download the new Sector-File, unzip it, moving it to your EuroScope-Directory, editing the Settings to fit your Setup (Not yet implented)
+## ESEquip 
+<img src="https://tim-u.me/Equip.png" width="50" />
 
-## Download
+ESEquip runs while you are controlling and checks that Pilots file the correct [Equipment-Code](https://en.wikipedia.org/wiki/Equipment_codes) based on their Aircraft-Type. The program also checks for destinations within the Mode-S-Area.
+Features include:
+ - Checks Equipment-Codes for arriving and departing aircraft
+ - Automatically sorts and only shows Aircraft/Flight-Plans that need checking
+ - Checks if a destination or departure is within the Mode-S-Area (Squawk 1000)
+
+## ESProfiles
+<img src="https://tim-u.me/Profile.png" width="50">
+
+ESProfiles helps you to keep different profiles for differnent Sectorfiles or controlling-positions. The program acts as the Main profile-manager for all other ESManager-programs and helps you keep track of all sub-profiles.
+Features include:
+  - Custom profiles for all controlling needs
+  - Define programs you need to launch, PRFs you need to open and Runways and Airports you need active
+  - All other Programs can access these profiles and use them
+  - Easily export profiles to use on another computer or to share with others
+  
+
+## ESLauncher
+<img src="https://tim-u.me/Dashboard.png" width="50">
+
+ESLauncher is the program you will see the most as it acts as the Dashboard to launch all other programs. With the program, you can also, with the press of one button, launch all programs and PRFs you need to control.
+Features include:
+- Quickly launch all other programs in this list
+- Automatically checks the current Airac and warns you if a new Airac is available
+- Launch all programs you need with the click of one button
+- Discord Rich-Presence that is fully customizable to your vACC (Shows you current position if Vatsim-ID is entered)
+- Customizable Launch-Background
+
+## ESRwy
+<img src="https://tim-u.me/Runway.png" width="50">
+
+ESRwy helps you with quickly setting up the .rwy-file (The file that defines what Airports and Runways you have active). You can create different profiles for different controlling situations (i.e. Only one Airport for Tower, two for Approach, and multiple for Center or Two profiles for different landing-directions)
+Features include:
+
+  - Profiles for different .rwy-files
+  - A custom Runway-Interface
+  - exportable and transferrable profiles, to quickly switch profiles over when the Navdata is updated
+
+
+## ESUpdater
+<img src="https://tim-u.me/Updater.png" width="50">
+
+ESUpdater helps you with quickly adding all your custom settings from your old sectorfile to your new sectorfile. You can also create different profiles for different Sectorfiles.
+Features include:
+
+- A plugin-collection to quickly set-up all the plugins you need
+- 4 differnt modes of copying to fit your setup
+- Custom profiles for your Settings
+- An easy-mode to make the process easier
+- TopSky and GroundRadarPlugin Settings included
+- Detects the Airac of the Sectorfile automatically
+
+ ## Download
 
 Simply head over to the [Releases Page on this GitHub-Page](https://github.com/Tim-Unger/ESUpdater/releases/latest)
 
 ## Installation
 
 Once downloaded, execute the Installer which will guide you through the Installation-Process.
-Two Programs will be installed, the Main ESUpdater and a ProfileCreator (see [Creating Profiles](#Profiles))
-
- ## The Program
- 
- ![program](https://i.imgur.com/kxzC8FM.png)
- 
- ## Walk-Through of the Process
- 
- ## Profiles
- You can create custom JSON-Files that can be loaded as a Profile to quickly import and display all Settings you want to use.
- To Create a Profile you can either manually write a JSON-File (see ProfileExample.json either in the Program directory or click [here](http://tim-u.me/ProfileExample.json))
- or you can Open ProfileCreator.exe which will guide you through the Process of Creating a Profile.
- You can also create a New JSON inside ESUpdater by activating "Create Profile with Settings" in "Other Settings" and selecting a Path
  
  ## Report Bugs, Make Suggestions or Participate
  
